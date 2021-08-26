@@ -1,5 +1,5 @@
 CC    = cc
-CFLAGS=  -O
+CFLAGS=  -O2
 OBJECTS= main.o faces.o bias.o primer.o ecalc.o fixer.o
 msa : ${OBJECTS}
 	${CC} ${CFLAGS} ${OBJECTS} -o msa
